@@ -113,3 +113,19 @@ for i in text:
 sortWord = sorted(dictText.items(), key=lambda x: (-x[1], x[0]))[:n]
 for word, count in sortWord:
     print(f" '{word}' - {count} раз")
+    
+
+# Создайте словарь со списком вещей для похода в качестве ключа 
+# и их массой в качестве значения. Определите какие вещи влезут 
+# в рюкзак передав его максимальную грузоподъёмность. Достаточно 
+# вернуть один допустимый вариант. 
+# *Верните все возможные варианты комплектации рюкзака
+
+list_hike = {'палатка': 5, 'матрац': 1.7, 'продукты': 4, 'одеяло': 1.5, 'котел': 3, 'вода': 2, 'одежда': 2, 'спички': 0.1, 'лопата': 0.5, 'полотенце': 0.3}
+max_weight = 12
+backpac_hike = {}
+for key, value in list_hike.items():
+    if maxWeight - value >= 0:
+        backpac_hike[key] = value
+        maxWeight = maxWeight - value
+print(backpac_hike)
