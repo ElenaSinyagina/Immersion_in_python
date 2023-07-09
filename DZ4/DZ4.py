@@ -14,3 +14,19 @@ print()
 matr = Transposition(matr)
 for i in matr:
     print(i)
+    
+
+# Напишите функцию принимающую на вход только ключевые параметры 
+# и возвращающую словарь, где ключ — значение переданного аргумента, 
+# а значение — имя аргумента. Если ключ не хешируем, используйте 
+# его строковое представление.
+
+def Swap_func(**args):
+    myDict = {}
+    for key, value in args.items():
+        if value.__hash__ == None:
+            value = str(value)
+        myDict[value] = key
+    return myDict
+
+print(Swap_func(a = 15, b = 'солнце', c = 3.14, d = [1, 2, 3, 4, 5], e = {1, 2, 3, 4, 5}, g = (1, 2, 3, 4, 5)))
