@@ -1,0 +1,62 @@
+[
+  {
+    "type": "file",
+    "name": "doc1.json",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 2
+  },
+  {
+    "type": "file",
+    "name": "doc1.txt",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 0
+  },
+  {
+    "type": "file",
+    "name": "doc2.json",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 0
+  },
+  {
+    "type": "file",
+    "name": "doc5.json",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 0
+  },
+  {
+    "type": "file",
+    "name": "doc5.pickle",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 0
+  },
+  {
+    "type": "file",
+    "name": "Task1.py",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 1087
+  },
+  {
+    "type": "file",
+    "name": "Task2.py",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 2723
+  },
+  {
+    "type": "file",
+    "name": "Task5.py",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 771
+  },
+  {
+    "type": "file",
+    "name": "Task6.py",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 1099
+  },
+  {
+    "type": "file",
+    "name": "Task_DZ.py",
+    "path": "E:\\Geekbrains\\Immersion_in_python\\DZ8",
+    "size": 1705
+  }
+]
