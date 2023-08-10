@@ -40,7 +40,7 @@ elif diskr==0:
 
 else:
     print(f'Действительных корней нет, дискриминант = {diskr}')
-    logger.warning(f'{date.day}, {date.month}, {date.year}   {date.hour}:{date.minute}:{date.second}    Действительных корней нет')
+    logger.warning(f'{date.day}, {date.month}, {date.year}   {date.hour}:{date.minute}:{date.second}   Действительных корней нет')
     
 
 print("\033[36m{}".format('Расчет площади треугольника со сторонами x и y')+"\033[0m".format('\n'))
